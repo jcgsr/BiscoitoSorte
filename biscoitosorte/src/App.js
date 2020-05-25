@@ -2,6 +2,7 @@
 
 1º projeto ReactJS em 24.05.2020
 O amigo de painho, seu Gito, faleceu ontem de covid...
+Terminado e publicado em 25.05.2020
 
 */
 
