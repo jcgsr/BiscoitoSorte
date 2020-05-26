@@ -76,9 +76,10 @@ class App extends Component {
         <h1>FRASES QUE NÃO DEVEM SER ESQUECIDAS OU NORMALIZADAS...</h1>
         <div className="img-container">
           <img src={require('./assets/jair.gif')} className="img" alt="Gif do JB" />
-          <img src={require('./assets/biscoito.png')} className="img" alt="Biscoito da Desgraça" />
+          
         </div>
-        <Botao nome="Abre o biscoito da desgraça dele&#128520; e vê o que tem dentro..." acaoBtn={this.quebraBiscoito} />
+        <h3>Abre o biscoito da desgraça dele&#128520; e vê o que tem dentro...</h3>
+        <Botao nome=<img src={require('./assets/biscoito.png')} className="img" alt="Biscoito da Desgraça" /> acaoBtn={this.quebraBiscoito} />
         <h3 className="textoFrase">{this.state.textoFrase}</h3>
         <a href="https://br.pinterest.com/sofiakataa011/elenao/?autologin=true">
           <img src={require('./assets/elenao.jpg')} className="img" alt="Biscoito da Desgraça" />
@@ -94,7 +95,6 @@ class App extends Component {
   }
 
 }
-
 class Botao extends Component {
   render() {
     return (
