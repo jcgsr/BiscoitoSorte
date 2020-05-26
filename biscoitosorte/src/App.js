@@ -79,7 +79,7 @@ class App extends Component {
           
         </div>
         <h3>Abre o biscoito da desgraça dele&#128520; e vê o que tem dentro...</h3>
-        <Botao nome=<img src={require('./assets/biscoito.png')} className="img" alt="Biscoito da Desgraça" /> acaoBtn={this.quebraBiscoito} />
+        <Botao nome=<img id="img-bisc"src={require('./assets/biscoito.png')} className="img" alt="Biscoito da Desgraça" /> acaoBtn={this.quebraBiscoito} />
         <h3 className="textoFrase">{this.state.textoFrase}</h3>
         <a href="https://br.pinterest.com/sofiakataa011/elenao/?autologin=true">
           <img src={require('./assets/elenao.jpg')} className="img" alt="Biscoito da Desgraça" />
